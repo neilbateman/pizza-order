@@ -6,7 +6,7 @@
 
 ## Description
 
-This is an HTML and Java script website created to practice HTML tags, Javascript, jQuery, Bootstrap, custom stylesheets, clean indentation, client and business logic, and regular commits and is a simple pizza order calculator
+This is an HTML and JavaScript website created to practice HTML tags, JavaScript, jQuery, Bootstrap, custom stylesheets, clean indentation, client and business logic, and regular commits and is a simple pizza order calculator
 ## Setup/Installation Requirements
 
 * Clone this repository
@@ -29,4 +29,3 @@ HTML, Javascript, jQuery, CSS, Bootstrap, Github
 ### License
 
 Free Use given by developer, Neil Bateman. Copyright (c) 2018 NB
-Copyright (c) 2015 **_{List of contributors or company name}_**
