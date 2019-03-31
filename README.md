@@ -6,7 +6,7 @@
 
 ## Description
 
-This is an HTML and Java script website created to practice HTML tags, Javasscript, jQuery, Bootstrap classes, custom stylesheets, clean indentation, client and business logic, and regular commits and is a simple pizza order calculator
+This is an HTML and Java script website created to practice HTML tags, Javascript, jQuery, Bootstrap, custom stylesheets, clean indentation, client and business logic, and regular commits and is a simple pizza order calculator
 ## Setup/Installation Requirements
 
 * Clone this repository
