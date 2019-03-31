@@ -19,4 +19,33 @@ function Pizza(amount, sizePizza) {
       } 
     };
 
- 
+    //set amount and sizePizza
+    $(document).ready(function() {                  
+      $("form#order-form").submit(function(event) {
+        var amount = $("input#amount").val();
+        var sizePizza = $("select#size").val();
+        var newPizza = new Pizza(amount, sizePizza);
+    
+        //Add to topVeg empty array
+        var topVeg = $("input.veg:checkbox:checked").each(function() {  
+          newPizza.topVeg.push(topVeg);
+        });
+    
+        //Add to topMeat empty array
+        var topMeat = $("input.meat:checkbox:checked").each(function() {
+          newPizza.topMeat.push(topMeat);
+        });
+    
+        //runs priceCompute on newPizza object and saves it
+        var pizzaPrice = newPizza.priceCompute();
+    
+    
+        //push price to "result" section
+        $("#price").text(pizzaPrice);
+    
+        //shows the result section 
+        $("#result").show();
+    
+        event.preventDefault();
+      });
+    });
