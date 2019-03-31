@@ -1,6 +1,6 @@
 # pizza-order.html
 
-#### _{Brief description of application},March 31stth, 2019
+#### March 31st, 2019
 
 #### By Neil Bateman
 
